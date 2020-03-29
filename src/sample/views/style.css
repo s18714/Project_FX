@@ -1,0 +1,25 @@
+Button.main {
+    -fx-background-color: #2e3348;
+    -fx-text-fill: white;
+    -fx-font-family: Silom;
+    -fx-font-size: 48;
+}
+
+Button.main:hover {
+    -fx-background-color: #3e4358;
+    -fx-text-fill: white;
+    -fx-font-family: Silom;
+    -fx-font-size: 48;
+}
+
+Button.back {
+    -fx-font-family: Rockwell;
+    -fx-font-size: 24;
+}
+
+Button.back:hover {
+    -fx-font-family: Rockwell;
+    -fx-font-size: 24;
+}
+
+

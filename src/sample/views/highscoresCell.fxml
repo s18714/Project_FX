@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="50.0" prefWidth="770.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1">
+    <Text fx:id="idTxt" fill="WHITE" layoutX="49.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="id" wrappingWidth="72.0">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Text>
+    <Text fx:id="timeTxt" fill="WHITE" layoutX="237.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time  &amp;  Level" wrappingWidth="448.7109375">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Text>
+    <Line endX="670.0" layoutX="93.0" layoutY="38.0" startX="-100.0" stroke="WHITE" AnchorPane.bottomAnchor="0.0" />
+</AnchorPane>

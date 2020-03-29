@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #2E3348;" stylesheets="@style.css"
+            xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="sample.controllers.HighscoresController">
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="242.0" layoutY="14.0" prefHeight="74.0" prefWidth="506.0"
+           text="Magic Puzzle" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="242.0"
+           AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="20.0">
+        <font>
+            <Font name="Phosphate Inline" size="80.0"/>
+        </font>
+        <effect>
+            <SepiaTone/>
+        </effect>
+    </Label>
+    <ImageView fitHeight="103.0" fitWidth="109.0" layoutX="757.0" pickOnBounds="true" preserveRatio="true"
+               AnchorPane.leftAnchor="757.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="6.0">
+        <Image url="@../assets/puzzle.png"/>
+    </ImageView>
+    <Button layoutX="14.0" layoutY="704.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="50.0"
+            prefWidth="150.0" styleClass="back" text="Back" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0">
+        <font>
+            <Font name="Rockwell" size="24.0"/>
+        </font>
+        <effect>
+            <SepiaTone/>
+        </effect>
+    </Button>
+    <Label layoutX="416.0" layoutY="149.0" text="Highscores" textFill="RED">
+        <font>
+            <Font name="Myanmar MN" size="36.0"/>
+        </font>
+    </Label>
+    <AnchorPane layoutX="135.0" layoutY="225.0" prefHeight="422.0" prefWidth="755.0">
+        <ScrollPane prefHeight="422.0" prefWidth="770.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                    AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <VBox fx:id="listOfTimes" prefHeight="0.0" prefWidth="0.0"/>
+        </ScrollPane>
+    </AnchorPane>
+</AnchorPane>
